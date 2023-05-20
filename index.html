@@ -13,46 +13,54 @@
 
 </head>
 <body>
-<header class="hero-section">
-    <img
-            class="hero"
-            src="img/hero.png"
-            alt="hero_img"
-    >
-    <div class="container">
-        <div class="main-header">
-            <h1 class="main-title">scroll and animation</h1>
-            <h2>scroll and animation</h2>
+<div class="wrapper">
+    <div class="content">
+        <header class="hero-section">
+            <img
+                    class="hero"
+                    src="img/hero.png"
+                    alt="hero_img"
+                    data-speed="0.6"
+                    data-lag="0.3"
+            >
+            <div class="container">
+                <div class="main-header" data-speed="0.7">
+                    <h1 class="main-title">scroll and animation</h1>
+                    <h2>scroll and animation</h2>
+                </div>
+            </div>
+        </header>
+
+        <div class="portfolio">
+            <div class="container">
+                <main class="gallery">
+                    <div class="gallery__left" data-speed="0.9">
+
+                        <img class="gallery__item" src="img/work/1.jpg" alt="work_1">
+                        <img class="gallery__item" src="img/work/2.jpg" alt="work_2">
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__head">Creative</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt laborum quos</p>
+                        </div>
+
+                    </div>
+
+                    <div class="gallery__right" data-speed="1.1">
+
+                        <div class="text-block gallery__item">
+                            <h2 class="text-block__head">Creative</h2>
+                            <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt laborum quos</p>
+                        </div>
+                        <img class="gallery__item" src="img/work/3.jpg" alt="work_3">
+                        <img class="gallery__item" src="img/work/4.jpg" alt="work_4">
+                    </div>
+                </main>
+            </div>
         </div>
     </div>
-</header>
 
-<div class="portfolio">
-    <div class="container">
-        <main class="gallery">
-            <div class="gallery__left">
-
-                <img class="gallery__item" src="img/work/1.jpg" alt="work_1">
-                <img class="gallery__item" src="img/work/2.jpg" alt="work_2">
-                <div class="text-block gallery__item">
-                    <h2 class="text-block__head">Creative</h2>
-                    <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt laborum quos</p>
-                </div>
-
-            </div>
-
-            <div class="gallery__right">
-
-                <div class="text-block gallery__item">
-                    <h2 class="text-block__head">Creative</h2>
-                    <p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa deserunt laborum quos</p>
-                </div>
-                <img class="gallery__item" src="img/work/3.jpg" alt="work_3">
-                <img class="gallery__item" src="img/work/4.jpg" alt="work_4">
-            </div>
-        </main>
-    </div>
 </div>
+
 
 
 

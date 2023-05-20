@@ -32,6 +32,11 @@ h2, h3, h4, h5, h6 {
     font-family: belleza-font;
 }
 
+/*will-change*/
+.wrapper, .hero, .main-header, .gallery > * {
+    will-change: transform;
+}
+
 .main-header {
     height: 100vh;
 }
